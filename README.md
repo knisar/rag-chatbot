@@ -1,3 +1,10 @@
 # RAG Chatbot using Langgraph and Tracing via W&B Weave
 
-To ger started setup benchmark.env in ./config with necessary API keys (WANDB_API_KEY) and optional (HUGGINGFACEHUB_API_TOKEN, OPENAI_API_KEY, ANTHROPIC_API_KEY)
+To get started:
+1. setup `benchmark.env` in `./config` with necessary API keys (`WANDB_API_KEY`, 'OPENAI_API_KEY')
+2. Run the `langgraph_rag.py` file
+   Set the configs to your corresponding W&B projects and entity and `chat_model` if you want to use some other model
+
+3. Once the above file is run, you can start the streamlit app by running `streamlit run langgraph_bot.py` which will spin up a streamlit chat interface which you can use to interact with and all the traces will be logged to W&B Weave
+   Make sure to also set the configs in `langgraph_bot.py` file
+
