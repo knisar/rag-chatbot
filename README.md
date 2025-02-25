@@ -1,7 +1,7 @@
 # RAG Chatbot using Langgraph and Tracing via W&B Weave
 
 To get started:
-* setup `benchmark.env` in `./config` with necessary API keys (`WANDB_API_KEY`, `OPENAI_API_KEY`)
+* Setup `benchmark.env` in `./config` with necessary API keys (`WANDB_API_KEY`, `OPENAI_API_KEY`)
 * Run the `langgraph_rag.py` file
   * Set the configs to your corresponding W&B projects and entity and `chat_model` if you want to use some other model
 
