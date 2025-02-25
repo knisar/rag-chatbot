@@ -1,0 +1,7 @@
+# Ignore the db folder
+chroma_db/
+benchmark.env
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
